@@ -1,0 +1,6 @@
+{
+  "name": "Кафе Мој Блокић",
+  "description": "Вебсајт за комшијски кафић Мој Блокић на Новом Београду (Гандијева 81) са интерактивним двојезичним менијем, акцијама, радним временом и контакт информацијама.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

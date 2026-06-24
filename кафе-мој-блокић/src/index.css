@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-hand: "Caveat", cursive;
+  
+  --color-berry: #a63454;
+  --color-berry-dark: #8c2541;
+  --color-berry-light: #c24a6b;
+  --color-berry-accent: #fdf2f4;
+  --color-warm-cream: #faf5f5;
+  --color-warm-sand: #f0e6e6;
+}
+
+/* Custom scrollbar matching the theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-warm-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-berry-light);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-berry);
+}
+
